@@ -5,6 +5,12 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "matplotlib>=3.10.7",
     "numpy>=2.4.4",
     "scikit-learn>=1.8.0",
+]
+
+[tool.uv.workspace]
+members = [
+    "tutorial_1",
 ]
